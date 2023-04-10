@@ -1,20 +1,57 @@
 body{
     font-family: "Montserrat";
 }
-#title{
+
+#title,#cta{
     background-color: #ff4c68;
   
 }
-.container-fluid{
-padding: 3% 15%;
+
+.whiteBackSection{
+    background-color: white;
+    padding: 7% 15%;
 }
-.heading{
+
+.eff462BackSection{
+    background-color: #ef8172;
+}
+
+.centered-aligns{
+    text-align: center;
+}
+
+.brand-icon{
+    margin: 20px 10px;
+}
+
+
+h1,h2,h3{
     font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.whiteFonts{
     color: white;
-    font-size: 3.3rem;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+ }
+
+.Bigheading{
+    font-size: 3.8rem;
     line-height: 1.5;
-    font-weight: 900;
 } 
+.sectionHeading{
+    font-size: 3.5rem;
+}
+.sectionTitle{
+    font-size: 1.5rem;
+}
+
+p{
+    color: grey;
+}
 
 
 
@@ -23,25 +60,16 @@ padding: 3% 15%;
     font-family: "Ubuntu";
     font-size: 2.3rem;
     font-weight: bold;
-   
-
 }
 
 
 .navbar{
-    position: relative;
-    bottom: 1.25rem;
-    padding: 0 0 4.5rem;
-    
+    padding: 0 0 6rem;
 }
 .navbar-item{
     padding: 0 18px;
 }
-.nav-link{
-    font-size: 1rem;
-    font-family: "Montserrat";
-    font-weight: normal;
-}
+
 
 
 
@@ -50,37 +78,21 @@ padding: 3% 15%;
     width: 20%;
     transform: rotate(25deg);
     position: absolute;
-    right: 30%;
 }
-.apple-download{
-    margin: 5% 3% 5% 0;
-}
+
 
 
 
 /* Feautue Seaction */
 
 #features{
-  
-    padding: 7% 15%;
-    background-color: white;
    position: relative;
-  
 }
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
-h3{
-    font-size: 1.5rem;
-    font-family: "Montserrat";
-    font-weight: bold;
-}
-p{
-    color: grey;
-}
+
 .fa-solid{
-    
     color: #ef8172;
     font-size: 4rem;
     margin-bottom: 20px;
@@ -89,30 +101,21 @@ p{
     color: #ff4c68;
 }
 
+
+
+
 /* testimonials */
 
-#testimonials{
-    text-align: center;
-    background-color: #ef8172;
-    color: white;
-
-
-}
-h2{
-    font-size: 3rem;
-    font-family: "Montserrat";
-    font-weight: bold;
-   
-}
 .testimonial-image{
 width: 10%;
 border-radius: 100%;
 margin: 20px;
 }
+.textimonial-text{
+    font-size: 3.5rem;
+}
 #press{
-    background-color: #ef8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 .press-img{
     width: 15%;
@@ -127,25 +130,14 @@ margin: 20px;
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 .pricing-card{
 padding: 3% 2%;
 
-
 }
 /* Cta */
 
-.cta1{
-    font-size: 3.5rem;
-    color: white;
-    /* padding: 10px 15px; */
-}
 #cta{
-    font-family: "Montserrat";
-    font-weight: bold;
-    background-color: #ff4c68;
-    text-align: center;
     padding: 7% 15%;
     
 }
@@ -154,16 +146,8 @@ padding: 3% 2%;
 
 
 
-/* Footer */
+  
 
-#footer{
-    background-color: white;
-    text-align: center;
-    padding: 7% 15%;
-}
-.brand-icon{
-    margin: 20px 10px;
-}
 
 @media (max-width: 1028px) {
     #doggy{
