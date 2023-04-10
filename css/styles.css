@@ -172,6 +172,9 @@ margin: 20px;
 
 
 @media (max-width: 1028px) {
+    body{
+        padding: 20%;
+    }
     #doggy{
    position: static;
    transform: rotate(0);
