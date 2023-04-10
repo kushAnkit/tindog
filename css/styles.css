@@ -169,9 +169,6 @@ margin: 20px;
 
 
   
-@-o-viewport {
-	width: device-width;
-}
 
 
 @media (max-width: 1028px) {
