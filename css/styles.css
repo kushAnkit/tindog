@@ -2,27 +2,48 @@ body{
     font-family: "Montserrat";
 }
 
-#title,#cta{
+
+
+.color-section#title{
     background-color: #ff4c68;
-  
 }
+
+
+.color-section#cta{
+    background-color: #ff4c68;
+}
+
+
+
+.color-section#testimonials{
+    background-color: #ef8172;
+}
+
+
+.color-section#press{
+    background-color: #ef8172;
+}
+
 
 .whiteBackSection{
     background-color: white;
-    padding: 7% 15%;
 }
 
-.eff462BackSection{
-    background-color: #ef8172;
+.whiteFonts{
+    color: white;
 }
+
+
 
 .centered-aligns{
     text-align: center;
 }
 
+
 .brand-icon{
     margin: 20px 10px;
 }
+
 
 
 h1,h2,h3{
@@ -30,13 +51,7 @@ h1,h2,h3{
     font-weight: bold;
 }
 
-.whiteFonts{
-    color: white;
-}
 
-.container-fluid{
-    padding: 3% 15%;
- }
 
 .Bigheading{
     font-size: 3.8rem;
@@ -48,6 +63,46 @@ h1,h2,h3{
 .sectionTitle{
     font-size: 1.5rem;
 }
+.featureTitle{
+    font-size: 1.5rem;
+}
+
+.padding-section#pricing{
+    padding: 100px;
+}
+.padding-section.pricing-card{
+padding: 3% 2%;
+
+}
+
+.padding-section#cta{
+    padding: 12% 15%;
+
+}
+.padding-section#press{
+    padding-bottom: 3%;
+}
+
+.padding-section.carousel-item{
+    padding: 7% 15%;
+}
+.padding-section#features{
+    padding: 12% 15%;
+}
+.padding-section.navbar{
+    padding: 0 0 6rem;
+}
+.padding-section.navbar-item{
+    padding: 0 18px;
+}
+
+.padding-section.container-fluid{
+    padding: 3% 15%;
+ }
+ .padding-section#title{
+    padding: 3% 15% 5%;
+ }
+
 
 p{
     color: grey;
@@ -60,14 +115,6 @@ p{
     font-family: "Ubuntu";
     font-size: 2.3rem;
     font-weight: bold;
-}
-
-
-.navbar{
-    padding: 0 0 6rem;
-}
-.navbar-item{
-    padding: 0 18px;
 }
 
 
@@ -87,12 +134,11 @@ p{
 
 #features{
    position: relative;
-}
-.feature-box{
-    padding: 5%;
+  
 }
 
 .fa-solid{
+    
     color: #ef8172;
     font-size: 4rem;
     margin-bottom: 20px;
@@ -112,37 +158,13 @@ border-radius: 100%;
 margin: 20px;
 }
 .textimonial-text{
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
-#press{
-    padding-bottom: 3%;
-}
+
 .press-img{
     width: 15%;
     margin: 20px 20px 50px;
 }
-.carousel-item{
-    padding: 7% 15%;
-}
-
-
-/* pricing Section */
-
-#pricing{
-    padding: 100px;
-}
-.pricing-card{
-padding: 3% 2%;
-
-}
-/* Cta */
-
-#cta{
-    padding: 7% 15%;
-    
-}
-
-
 
 
 
